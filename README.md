@@ -1,36 +1,39 @@
-# Dream-Killers-Fake-Product-Detection-using-Blockchain-application
-We team DreamKillers are presenting prototype of our project titled "Product Counterfeiting Detection Using Blockchain Based Application", It is an Blockchain based application for detecting Counterfeited products in the B2C supply chain which will benefit businesses in terms of growth, reputation, trust and to customers in getting genuine products in hand.
+# Counterfeit Product Detection Using Blockchain
+"Counterfeiting Product Detection Using Blockchain ", A blockchain based application to detect the counterfeit products in the supply chain. This will benefit the businesses in terms of growth and reputation among the customers and allows getting genuine products.
 
 # Prerequisites
-You should have metamask, and Ganache setup already
+Ganache 
+Metamask chrome extension(connect it with the local Ganache server)
+Node version preferred: 16.14.1
+Truffle version preferred: 5.8.1
 
-Installing
-A step by step series of examples that tell you how to get a development env running.
+## Installing
 
-Cloning the repo
+## Cloning the repo
 
-$ git clone https://github.com/AltafMShaikh/Dream-Killers-Fake-Product-Detection-using-Blockchain-application.git
-Installing the dependencies
+$ git clone <repository url> $
 
-$ npm install
+## Installing the dependencies
 
-Migrate
+$ npm install $
 
-$ truffle migrate --reset
+## Migrate
 
-Running the server
+$ truffle migrate --reset $
 
-change repo to client-cd client
+## Running the server
 
+cd client
 $ npm install 
+$ npm start
 
-$ npm run dev
+## Running the tests
 
-Running the tests
+$ truffle test $
 
-$ truffle test
 # Technology Stack
-Blockchain:
+
+## Blockchain:
 
 Ethereum - Blockchain Network
 
@@ -40,7 +43,7 @@ Truffle - development environment, testing framework and asset pipeline for bloc
 
 Ganache - Create private Ethereum blockchain to run tests
 
-Web App:
+## Web App:
 
 Metamask - A crypto wallet & gateway to blockchain apps
 
