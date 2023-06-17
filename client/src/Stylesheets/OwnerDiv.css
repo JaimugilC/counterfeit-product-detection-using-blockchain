@@ -1,0 +1,18 @@
+.add-user-container{
+    display: flex;   
+    justify-content:space-evenly;
+    padding: 20px;
+    width: 100%;
+}
+
+.add-user-div{
+    display: flex;
+       flex-direction: column;
+       align-content: center;
+       justify-content:center;
+       width: 20vw;
+       height: 60vh;
+       padding: 15px;
+       background-color: white;
+       border-radius: 10px;
+}

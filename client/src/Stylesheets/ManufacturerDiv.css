@@ -1,0 +1,28 @@
+.Manufacturer-container{
+ display: flex;   
+ justify-content:space-evenly;
+    padding: 20px;
+}
+
+.add-product{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 20vw;
+    height: 60vh;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.generate-qr{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 60vh;
+    border-radius: 10px;
+}

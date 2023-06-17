@@ -1,0 +1,9 @@
+.MainDiv{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url('../bgimg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}

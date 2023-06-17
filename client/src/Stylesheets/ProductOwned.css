@@ -1,0 +1,19 @@
+.product-main-div{
+    display: flex;   
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.owned-product-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    width: 50vw;
+    height: 70vh;
+    border-radius: 10px;
+    background-color: white;
+}
