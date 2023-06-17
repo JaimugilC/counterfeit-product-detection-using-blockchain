@@ -2,38 +2,47 @@
 "Counterfeiting Product Detection Using Blockchain ", A blockchain based application to detect the counterfeit products in the supply chain. This will benefit the businesses in terms of growth and reputation among the customers and allows getting genuine products.
 
 # Prerequisites
-Ganache 
+
+Ganache
+
 Metamask chrome extension(connect it with the local Ganache server)
+
 Node version preferred: 16.14.1
+
 Truffle version preferred: 5.8.1
 
-## Installing
+## Installation and Running
 
-## Cloning the repo
+### Cloning the repo
+```
+git clone https://github.com/JaimugilC/counterfeit-product-detection-using-blockchain.git
+```
 
-$ git clone <repository url> $
+### Installing the dependencies
+```
+npm install 
+```
 
-## Installing the dependencies
+### Migrate
+```
+truffle migrate --reset 
+```
 
-$ npm install $
-
-## Migrate
-
-$ truffle migrate --reset $
-
-## Running the server
-
+### Running the server
+```
 cd client
-$ npm install 
-$ npm start
+npm install 
+npm start
+```
 
-## Running the tests
+### Running the tests
+```
+truffle test 
+```
 
-$ truffle test $
+## Technology Stack
 
-# Technology Stack
-
-## Blockchain:
+### Blockchain:
 
 Ethereum - Blockchain Network
 
@@ -43,7 +52,7 @@ Truffle - development environment, testing framework and asset pipeline for bloc
 
 Ganache - Create private Ethereum blockchain to run tests
 
-## Web App:
+### Web App:
 
 Metamask - A crypto wallet & gateway to blockchain apps
 
